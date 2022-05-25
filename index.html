@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Memory Brain</title>
+</head>
+<body>
+  <header>
+    <p>Memory Brain</p>
+  </header>
+  <div class="container-controls">
+    <div class="container-controls-init">
+      <button id="init" class="btn-init">Iniciar</button>
+    </div>
+    <div class="cronometer">
+      0:<span id="span">30</span>
+    </div>
+    <div class="container-controls-reload">
+      <a id="reload" href="index.html"  class="reload" style="visibility: hidden;"><button type="button" class="restart-button">Reiniciar</button></a>
+    </div>
+  </div>
+  <div id="game" style="visibility: hidden; position: absolute;" class="game"></div>
+  <div id="gameOver" class="gameOver">
+    <div class="gameOver-container">
+      <h1 class="h1">¿Quieres empezar?</h1>
+    <h2 class="h2">Dale click en Iniciar</h2> 
+    </div>
+  </div>
+  <div class="final-message">
+    <h1 id="win">Felicidades, lo haz conseguido!!!</h1>
+    <a href="index.html"><button type="button" class="restart">Volver a comenzar</button></a>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+</html>

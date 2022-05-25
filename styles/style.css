@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+
+header {
+  padding: 30px 0;
+}
+
+button {
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button img {
+  border-radius: inherit;
+  object-fit: cover;
+}
+
+.container-controls {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.btn-init, .btn-reload {
+  height: 70px;
+  width: 100px;
+  padding: 0 20px;
+  border: none;
+  margin-top: 10px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  max-width: 562px;
+  user-select: none;
+  -webkit-touch-callout: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container-controls-init, .container-controls-timer, .container-controls-reload {
+  width: 50%;
+}
+
+.restart-button {
+  height: 70px;
+  width: 100px;
+  padding: 0 20px;
+  border: none;
+  margin-top: 10px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  max-width: 562px;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.restart {
+  height: 70px;
+  width: 100%;
+  padding: 0 20px;
+  border: none;
+  margin-top: 10px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  max-width: 562px;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.restart-button:focus {
+  outline: none;
+}
+
+.game {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div button {
+  border: none;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.img-bg {
+  width: 100%;
+  height: 100%;
+}
+
+.final-message {
+position: fixed;
+top: 0;
+height: 100%;
+width: 100%;
+background-color: rgba(52, 62, 211, 0.5);
+flex-direction: column;
+justify-content: center;
+display: none;
+}
+
+div#gameOver {
+  margin-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h1.h1 {
+  font-size: 30px;
+}
+
+h2.h2 {
+  font-size: 20px;
+}
+.gameOver-container {
+  padding: 8px 8px 8px 6px;
+  padding-top: 75px;
+  width: 100%;
+  height: 250px;
+  background-color: rgba(25, 0, 0, .2);
+  padding-bottom: 75px;
+  border-radius: 20px;
+}
+
+.show {
+  display: flex;
+}
